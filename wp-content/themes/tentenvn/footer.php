@@ -1,5 +1,5 @@
 
-
+<?php if(!is_product_category()) { ?>
 <footer class="footer">
 	<div class="container">
 	   <div class="row">
@@ -23,15 +23,13 @@
       </div>
 	</div>
 </footer>
+
 <div class="scrolltop">
   <i class="fa fa-angle-up" aria-hidden="true"></i> 
 </div>
+<?php }?>
+
 <?php wp_footer(); ?>
-
-
-
-<script src="<?php echo BASE_URL; ?>/js/wow.min.js"></script>
-<script src="<?php echo BASE_URL; ?>/js/slick.js"></script>
 
 
 </body>

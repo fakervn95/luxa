@@ -132,3 +132,8 @@ function bbloomer_custom_action() {
 }
 add_action( 'woocommerce_product_thumbnails', 'bbloomer_custom_action', 10 );
 
+
+
+
+
+

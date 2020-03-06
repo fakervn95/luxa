@@ -24,10 +24,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?> 
-
-	
-
-<li  class="col-sm-3  list_item_product">
+<li  class="list_item_product item">
 	<div class="product_inner">
 	<?php
 	/**

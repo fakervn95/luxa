@@ -20,4 +20,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<ul class="list_products  list_products_archive columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?> row">
+<ul class="slide_arc_product owl-carousel columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>">
